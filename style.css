@@ -1,0 +1,49 @@
+
+    /* style.css */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #111;
+  color: #fff;
+  margin-top: 50px;
+}
+
+.container {
+  background-color: #222;
+  padding: 30px;
+  border-radius: 10px;
+  display: inline-block;
+}
+
+#display {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  border-radius: 5px;
+}
+
+#startBtn { background-color: #28a745; color: #fff; }
+#pauseBtn { background-color: #ffc107; color: #000; }
+#resetBtn { background-color: #dc3545; color: #fff; }
+#lapBtn   { background-color: #007bff; color: #fff; }
+
+#laps {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+#laps li {
+  background-color: #333;
+  margin: 5px auto;
+  padding: 8px;
+  width: 200px;
+  border-radius: 4px;
+}
